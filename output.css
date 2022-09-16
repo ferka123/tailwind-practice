@@ -778,6 +778,15 @@ body {
   border-width: 1px;
 }
 
+.border-t {
+  border-top-width: 1px;
+}
+
+.border-gray-400 {
+  --tw-border-opacity: 1;
+  border-color: rgb(156 163 175 / var(--tw-border-opacity));
+}
+
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -791,6 +800,20 @@ body {
 .bg-veryDarkGrayBlueBg {
   --tw-bg-opacity: 1;
   background-color: hsl(237 17% 21% / var(--tw-bg-opacity));
+}
+
+.bg-gradient-to-r {
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+.from-lightRed {
+  --tw-gradient-from: hsl(356, 100%, 66%);
+  --tw-gradient-to: hsl(356 100% 66% / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.to-veryLightRed {
+  --tw-gradient-to: hsl(355, 100%, 74%);
 }
 
 .p-6 {
@@ -814,6 +837,11 @@ body {
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .py-28 {
